@@ -29,10 +29,10 @@ As the Data Analyst, your mission is to investigate historical employee data to 
 | Engineered features | `IncomeBand`, `Distance_Group`, `Age_Group`, `Hike_Group`, `Stock_Label` |
 
 ## Tools & Technologies
-`MySQL` 
-`Python` (`pandas`, `numpy`, `matplotlib`, `seaborn`, `mysql-connector-python`) 
-`Jupyter Notebook`
-`Power BI`
+* `MySQL` 
+* `Python` (`pandas`, `numpy`, `matplotlib`, `seaborn`,`mysql-connector-python`) 
+* `Jupyter Notebook`
+* `Power BI`
 
 ## Methods
 1. Extracted data from MySQL via SQL query
@@ -89,6 +89,6 @@ Attrition is concentrated in specific, identifiable risk profiles — overtime w
 
 ## Author
 **Ranak Maity**
-[GitHub](https://github.com/Ranak5) 
-[LinkedIn](https://www.linkedin.com/in/ranak-maity/) 
-[LeetCode](https://leetcode.com/u/Ranak5_Maity/)
+* [GitHub](https://github.com/Ranak5) 
+* [LinkedIn](https://www.linkedin.com/in/ranak-maity/) 
+* [LeetCode](https://leetcode.com/u/Ranak5_Maity/)
