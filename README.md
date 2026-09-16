@@ -5,8 +5,18 @@ Identifying the true drivers of voluntary employee attrition using SQL, Python (
 ## Overview
 A data-driven investigation into rising employee turnover at a mid-sized enterprise. Replaces conflicting management theories (pay, burnout, promotions) with evidence-based findings and prioritized retention recommendations, delivered as a Jupyter Notebook analysis and a Power BI dashboard.
 
-## Problem Statement
-Leadership needs to know **why** employees are leaving before investing in retention programs. This project tests specific hypotheses around compensation, overtime, career growth, and satisfaction to pinpoint the actual root causes.
+## Business Problem Statement
+At **Apex Solutions** (a mid-sized corporate enterprise), voluntary employee turnover has spiked unexpectedly, pushing the annual attrition rate to an unsustainable level. Losing experienced employees is not just an administrative hurdle; it severely impacts team productivity, increases recruitment and onboarding overhead, and drains institutional knowledge.
+
+The Chief Human Resources Officer (CHRO) and department heads are currently operating in the dark. They are facing conflicting theories from various managers—some believe departures are driven purely by compensation gaps, others point fingers at burnout from heavy overtime, and some suspect that a lack of career progression and long promotion cycles are pushing talent out the door. Without clear, data-driven answers, the company risks wasting budget on generic retention programs that fail to address the root causes.
+
+## The Analytical Objective
+As the Data Analyst, your mission is to investigate historical employee data to move past guesswork and uncover the actual catalysts of voluntary turnover. Specifically, this project aims to:
+
+1. **Identify High-Risk Profiles:** Determine which departments, job roles, and demographic segments experience the highest attrition rates.
+2. **Examine Workplace Stressors:** Quantify the direct impact of operational factors such as mandatory overtime, compensation slabs, and distance from home on employee resignation decisions.
+3. **Analyze Career Stagnation:** Evaluate whether a lack of internal mobility and prolonged time since the last promotion correlate with higher turnover.
+4. **Deliver Actionable Recommendations:** Translate analytical findings into strategic, cost-effective interventions that leadership can implement to protect the company's talent pipeline.
 
 ## Dataset
 | | |
@@ -19,7 +29,10 @@ Leadership needs to know **why** employees are leaving before investing in reten
 | Engineered features | `IncomeBand`, `Distance_Group`, `Age_Group`, `Hike_Group`, `Stock_Label` |
 
 ## Tools & Technologies
-`MySQL` · `Python` (`pandas`, `numpy`, `matplotlib`, `seaborn`, `mysql-connector-python`) · `Jupyter Notebook` · `Power BI`
+`MySQL` 
+`Python` (`pandas`, `numpy`, `matplotlib`, `seaborn`, `mysql-connector-python`) 
+`Jupyter Notebook`
+`Power BI`
 
 ## Methods
 1. Extracted data from MySQL via SQL query
@@ -42,6 +55,7 @@ Leadership needs to know **why** employees are leaving before investing in reten
 | Salary hike % | No meaningful effect on attrition |
 
 ## Dashboard
+![HR Attrition Dashboard](1st_page.png)
 `HR_Attrition.pbix` — interactive Power BI report covering headcount vs. attrition, department/role breakdowns, and key driver visuals. Open in Power BI Desktop to explore.
 
 ## How to Run
@@ -75,4 +89,6 @@ Attrition is concentrated in specific, identifiable risk profiles — overtime w
 
 ## Author
 **Ranak Maity**
-[GitHub](https://github.com/Ranak5) · [LinkedIn](https://www.linkedin.com/in/ranak-maity/) · [LeetCode](https://leetcode.com/u/Ranak5_Maity/)
+[GitHub](https://github.com/Ranak5) 
+[LinkedIn](https://www.linkedin.com/in/ranak-maity/) 
+[LeetCode](https://leetcode.com/u/Ranak5_Maity/)
